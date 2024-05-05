@@ -192,7 +192,9 @@ transform = transforms.Compose([
 
 |Models| Test Accuracy|
 |:--|:--:|
-|Linear Model| 56%|
+|KNN| 22%|
+|Linear Model| 40%|
+|Linear Model with Relu| 56%|
 |Simple Conv | 75%|
 |Conv with padding| 78%|
 |Conv with Dropout and Data Augmentation| 82%|

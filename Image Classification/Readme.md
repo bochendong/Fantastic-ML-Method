@@ -196,12 +196,12 @@ Data augmentation is a technique used to artificially increase the size and dive
 
 
 ```python
-transform = transforms.Compose([
-    transforms.RandomHorizontalFlip(p=0.5),
-    transforms.ColorJitter(brightness=0.2),
-    transforms.RandomRotation(degrees=20),
+transform_train = transforms.Compose([
+    transforms.RandomHorizontalFlip(),
+    transforms.RandomCrop(32, 4),
     transforms.ToTensor(),
-    transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
+    transforms.Normalize(mean=[0.485, 0.456, 0.406],
+                                     std=[0.229, 0.224, 0.225])
 ])
 ```
 
@@ -218,8 +218,6 @@ transform = transforms.Compose([
 
 Learning rate decay, also known as learning rate annealing or learning rate scheduling, is a technique used to improve the training of machine learning models, particularly deep neural networks. 
 
-
-
 <p align="center">
     <img src = './img/11.png' width = 800px height = 350px>
 </p>
@@ -235,6 +233,102 @@ There are several reasons why learning rate decay is beneficial:
     <img src = './img/10.png' width = 800px height = 400px>
 </p>
 
+```python
+for epoch in range(num_epochs):
+
+    ... training ...
+
+    scheduler.step()
+
+
+scheduler = StepLR(optimizer, step_size=10, gamma=0.5)
+```
+
+
+# Batch Norm
+
+Batch Normalization (BN) is a technique used in neural networks to improve the training speed, stability, and performance.
+
+It normalizes the activations of each layer by adjusting and scaling them so that they have a mean of zero and a standard deviation of one. 
+
+This normalization is performed over the mini-batches during training.
+<p align="center">
+    <img src = './img/12.png' width = 600px height = 300px>
+</p>
+
+
+```python
+class VGG(nn.Module):
+    def __init__(self):
+        super(VGG, self).__init__()
+        self.features = nn.Sequential(
+            nn.Conv2d(3, 64, kernel_size=3, padding=1),
+            nn.BatchNorm2d(64),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(64, 64, kernel_size=3, padding=1),
+            nn.BatchNorm2d(64),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(2, 2),
+
+            nn.Conv2d(64, 128, kernel_size=3, padding=1),
+            nn.BatchNorm2d(128),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(128, 128, kernel_size=3, padding=1),
+            nn.BatchNorm2d(128),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(2, 2),
+
+            nn.Conv2d(128, 256, kernel_size=3, padding=1),
+            nn.BatchNorm2d(256),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(256, 256, kernel_size=3, padding=1),
+            nn.BatchNorm2d(256),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(2, 2),
+
+            nn.Conv2d(256, 512, kernel_size=3, padding=1),
+            nn.BatchNorm2d(512),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(512, 512, kernel_size=3, padding=1),
+            nn.BatchNorm2d(512),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(2, 2),
+
+            nn.Conv2d(512, 512, kernel_size=3, padding=1),
+            nn.BatchNorm2d(512),
+            nn.ReLU(inplace=True),
+            nn.Conv2d(512, 512, kernel_size=3, padding=1),
+            nn.BatchNorm2d(512),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(2, 2),
+        )
+
+        self.classifier = nn.Sequential(
+            nn.Linear(512, 512),
+            nn.BatchNorm1d(512),
+            nn.ReLU(inplace=True),
+            nn.Dropout(0.5),
+            nn.Linear(512, 512),
+            nn.BatchNorm1d(512),
+            nn.ReLU(inplace=True),
+            nn.Dropout(0.5),
+            nn.Linear(512, 10),
+            nn.Softmax(dim=1)
+        )
+
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d):
+                n = m.kernel_size[0] * m.kernel_size[1] * m.out_channels
+                m.weight.data.normal_(0, math.sqrt(2. / n))
+                m.bias.data.zero_()
+
+    def forward(self, x):
+        x = self.features(x)
+        x = x.view(-1, 512)
+        x = self.classifier(x)
+        return x
+```
+
 
 
 |#|Models| Test Accuracy| Year|
@@ -246,4 +340,5 @@ There are several reasons why learning rate decay is beneficial:
 |5|[4] with padding| 80%|2013 - 2015|
 |6|[5] with Dropout and Data Augmentation| 82%|2015 - 2017|
 |7|[6] with Learning rate Deacy| 85%|2015 - 2017|
-|8|[8] with Batch Norm| 90%|2015 - 2017|
+|8|[8] with Batch Norm| 93%|2015 - 2017|
+

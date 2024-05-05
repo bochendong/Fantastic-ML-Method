@@ -53,6 +53,13 @@ class Linear(nn.Module):
 Notice that the `ReLU` between each linear layer helps improve accuracy. These `ReLU` activations introduce non-linearity to the model, enabling it to learn more complex patterns in the data.
 
 
+|Models| Test Accuracy|
+|:--|:--:|
+|KNN| 22%|
+|Linear Model| 40%|
+|Linear Model with Relu| 56%|
+
+
 ## Conv Layer
 
 Convolutional layers are responsible for learning spatial hierarchies in the input data. Each convolutional layer applies a set of learnable filters to the input, producing feature maps. These feature maps capture different aspects of the input data.
@@ -128,6 +135,14 @@ class VGG(nn.Module):
   - This pattern helps the model learn hierarchical features by gradually reducing the spatial dimensions while increasing the depth (number of channels) of the feature maps.
 
 
+|Models| Test Accuracy|
+|:--|:--:|
+|KNN| 22%|
+|Linear Model| 56%|
+|Simple Conv | 65%|
+|Conv with maxpooling| 75%|
+|Conv with maxpooling and padding| 78%|
+
 # Overfitting
 
 Overfitting occurs when a machine learning model learns to perform exceptionally well on the training data but fails to generalize to unseen or new data.
@@ -193,14 +208,42 @@ transform = transforms.Compose([
 |Models| Test Accuracy|
 |:--|:--:|
 |KNN| 22%|
-|Linear Model| 40%|
-|Linear Model with Relu| 56%|
-|Simple Conv | 75%|
-|Conv with padding| 78%|
+|Linear Model| 56%|
+|Simple Conv | 65%|
+|Conv with maxpooling| 75%|
+|Conv with maxpooling and padding| 78%|
 |Conv with Dropout and Data Augmentation| 82%|
 
 # Learning Rate Decay
 
+Learning rate decay, also known as learning rate annealing or learning rate scheduling, is a technique used to improve the training of machine learning models, particularly deep neural networks. 
 
 
 
+<p align="center">
+    <img src = './img/11.png' width = 800px height = 350px>
+</p>
+
+There are several reasons why learning rate decay is beneficial:
+
+- **Convergence**: Initially, a high learning rate helps the model converge quickly towards a good solution. However, as training progresses and the model approaches a local minimum, a lower learning rate helps the optimization process converge more accurately and efficiently.
+- **Stability**: A decreasing learning rate stabilizes the training process by reducing the likelihood of oscillations or divergence in the loss landscape. It allows the optimization algorithm to navigate more smoothly towards the global or local minimum.
+- **Improved Generalization**: Learning rate decay can help prevent overfitting by regularizing the optimization process. By gradually reducing the learning rate, the model becomes less sensitive to small fluctuations in the training data and is more likely to generalize well to unseen data.
+- **Fine-Tuning**: Learning rate decay enables fine-tuning of the model parameters during the later stages of training. This allows the model to make smaller, more precise adjustments to the parameters, leading to better convergence and performance.
+
+<p align="center">
+    <img src = './img/10.png' width = 800px height = 400px>
+</p>
+
+
+
+|#|Models| Test Accuracy| Year|
+|:--:|:--|:--:|:--|
+|1|KNN| 22%|1951|
+|2|Linear Model| 56%|1958|
+|3|Conv with big filter size | 65%|2012|
+|4|Conv with small filter size and maxpooling| 75%|2013 - 2015|
+|5|[4] with padding| 80%|2013 - 2015|
+|6|[5] with Dropout and Data Augmentation| 82%|2015 - 2017|
+|7|[6] with Learning rate Deacy| 85%|2015 - 2017|
+|8|[8] with Batch Norm| 90%|2015 - 2017|

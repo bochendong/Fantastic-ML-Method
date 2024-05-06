@@ -334,6 +334,10 @@ class VGG(nn.Module):
 ```
 
 
+<p align="center">
+    <img src = './img/14.PNG' width = 600px height = 300px>
+</p>
+
 
 |#|Models| Test Accuracy| Year|
 |:--:|:--|:--:|:--|

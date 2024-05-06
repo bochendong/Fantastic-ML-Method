@@ -119,6 +119,10 @@ class VGG(nn.Module):
         return x
 ```
 
+<p align="center">
+    <img src = './img/13.png' width = 800px height = 400px>
+</p>
+
 
 **Summary**
 
@@ -339,6 +343,6 @@ class VGG(nn.Module):
 |4|Conv with small filter size and maxpooling| 75%|2013 - 2015|
 |5|[4] with padding| 80%|2013 - 2015|
 |6|[5] with Dropout and Data Augmentation| 82%|2015 - 2017|
-|7|[6] with Learning rate Deacy| 85%|2015 - 2017|
+|7|[6] with Learning rate Deacy| 86%|2015 - 2017|
 |8|[8] with Batch Norm| 93%|2015 - 2017|
 

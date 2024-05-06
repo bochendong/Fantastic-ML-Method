@@ -249,6 +249,22 @@ scheduler = StepLR(optimizer, step_size=10, gamma=0.5)
 ```
 
 
+```python
+def adjust_learning_rate(optimizer, epoch):
+    """Sets the learning rate to the initial LR decayed by 2 every 30 epochs"""
+    lr = 0.05 * (0.5 ** (epoch // 30))
+    for param_group in optimizer.param_groups:
+        param_group['lr'] = lr
+
+for epoch in range(num_epochs):
+
+    ... training ...
+
+    adjust_learning_rate(optimizer, epoch)
+
+```
+
+
 # Batch Norm
 
 Batch Normalization (BN) is a technique used in neural networks to improve the training speed, stability, and performance.

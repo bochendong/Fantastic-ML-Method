@@ -98,6 +98,10 @@ The discriminator in a GAN is simply a classifier. It tries to distinguish real 
 To be continue...
 
 
-## Why connot we use sample Discrimator?
+## GANS
 
-To be continue...
+### CGAN
+
+A Conditional Generative Adversarial Network (CGAN) is an extension of the basic Generative Adversarial Network (GAN) framework that allows the generation of synthetic data conditioned on certain inputs. This conditioning can be in the form of labels, tags, or other types of data that direct the generation process, enabling the model to produce more specific or targeted outputs
+
+

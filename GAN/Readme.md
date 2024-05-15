@@ -173,6 +173,63 @@ A Conditional Generative Adversarial Network (CGAN) is an extension of the basic
 </p>
 
 
+Here is an exmaple of Generator and Discrimator on MNIST
+
+```python
+class Generator(nn.Module):
+    def __init__(self):
+        super(Generator, self).__init__()
+
+        self.label_emb = nn.Embedding(num_classes, num_classes)
+
+        self.model = nn.Sequential(
+            nn.Linear(latent_dim + num_classes, 256),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Linear(256, 512),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Linear(512, 1024),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Linear(1024, image_size),
+            nn.Tanh()
+        )
+
+    def forward(self, noise, context):
+        noise = noise.view(-1, latent_dim)
+        context_feature = self.label_emb(context)
+        x = torch.cat([noise, context_feature], 1)
+
+        return self.model(x)
+
+
+class Discriminator(nn.Module):
+    def __init__(self):
+        super(Discriminator, self).__init__()
+
+        self.label_emb = nn.Embedding(num_classes, num_classes)
+
+        self.model = nn.Sequential(
+            nn.Linear(image_size + num_classes, 1024),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Dropout(0.3),
+            nn.Linear(1024, 512),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Dropout(0.3),
+            nn.Linear(512, 256),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Dropout(0.3),
+            nn.Linear(256, 1),
+            nn.Sigmoid()
+        )
+
+    def forward(self, img, context):
+        img = img.view(-1, image_size)
+        context_feature = self.label_emb(context)
+
+        x = torch.cat((img, context_feature), dim=1)
+        return self.model(x)
+```
+
+
 ### Generator
 
 **ConvTranspose2d**

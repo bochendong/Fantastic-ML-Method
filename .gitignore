@@ -1,4 +1,6 @@
 *.gz
+/data
+*.png
 .DS_Store
 .AppleDouble
 .LSOverride

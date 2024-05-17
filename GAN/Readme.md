@@ -1,24 +1,24 @@
 # GAN
 
 <p align="center">
-    <img src = 'img/01.png' width = 500px height = 340px>
+    <img src = './img/01.png' width = 500px height = 340px>
 </p>
 
 
 <p align="center">
-    <img src = 'img/02.png' width = 500px height = 340px>
+    <img src = './img/02.png' width = 500px height = 340px>
 </p>
 
 ## What can GAN Do?
 
 <p align="center">
-    <img src = 'img/13.png' width =600px height = 340px>
+    <img src = './img/13.png' width =600px height = 500px>
 </p>
 
 Choi, Y., Choi, M.-J., Kim, M., Ha, J.-W., Kim, S., & Choo, J. (2017). StarGAN: Unified generative adversarial networks for multi-domain image-to-image translation. CoRR, abs/1711.09020. http://arxiv.org/abs/1711.09020
 
 <p align="center">
-    <img src = 'img/14.png' width =600px height = 340px>
+    <img src = './img/14.png' width =600px height = 340px>
 </p>
 
 Wu, J., Zhang, C., Xue, T., Freeman, W. T., & Tenenbaum, J. B. (2016). Learning a probabilistic latent space of object shapes via 3D generative-adversarial modeling. CoRR, abs/1610.07584. Retrieved from http://arxiv.org/abs/1610.07584
@@ -27,12 +27,12 @@ Wu, J., Zhang, C., Xue, T., Freeman, W. T., & Tenenbaum, J. B. (2016). Learning 
 ## Basic idea of GAN
 
 <p align="center">
-    <img src = 'img/03.png' width = 500px height = 340px>
+    <img src = './img/03.png' width = 500px height = 340px>
 </p>
 
 
 <p align="center">
-    <img src = 'img/04.png' width = 500px height = 340px>
+    <img src = './img/04.png' width = 500px height = 340px>
 </p>
 
 
@@ -41,44 +41,44 @@ Wu, J., Zhang, C., Xue, T., Freeman, W. T., & Tenenbaum, J. B. (2016). Learning 
 **100 updates**
 
 <p align="center">
-    <img src = 'img/05.png' width = 361px height = 340px>
+    <img src = './img/05.png' width = 361px height = 340px>
 </p>
 
 **1000 updates**
 
 <p align="center">
-    <img src = 'img/06.png' width = 361px height = 340px>
+    <img src = './img/06.png' width = 361px height = 340px>
 </p>
 
 
 **5000 updates**
 
 <p align="center">
-    <img src = 'img/07.png' width = 361px height = 340px>
+    <img src = './img/07.png' width = 361px height = 340px>
 </p>
 
 **10000 updates**
 <p align="center">
-    <img src = 'img/08.png' width = 361px height = 340px>
+    <img src = './img/08.png' width = 361px height = 340px>
 </p>
 
 **20000 updates**
 
 <p align="center">
-    <img src = 'img/09.png' width = 361px height = 340px>
+    <img src = './img/09.png' width = 361px height = 340px>
 </p>
 
 **50000 updates**
 
 <p align="center">
-    <img src = 'img/10.png' width = 361px height = 340px>
+    <img src = './img/10.png' width = 361px height = 340px>
 </p>
 
 
 ## GAN Structure
 
 <p align="center">
-    <img src = 'img/11.png' width =600px height = 340px>
+    <img src = './img/11.png' width =600px height = 340px>
 </p>
 
 **训练过程：**
@@ -90,14 +90,15 @@ Wu, J., Zhang, C., Xue, T., Freeman, W. T., & Tenenbaum, J. B. (2016). Learning 
 
 ```python
 for batch in range(batch_size):)
-    for 轮数 in range(判别器训练轮数):
-        步骤一 训练D
+    步骤一 训练D
     步骤二 训练G
 ```
 
 <p align="center">
-    <img src = 'img/15.png' width =600px height = 300px>
+    <img src = './img/15.png' width =800px height = 300px>
 </p>
+
+Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., & Bengio, Y. (2014). Generative Adversarial Nets. In Advances in Neural Information Processing Systems 27 (pp. 2672-2680).
 
 
 **Question:**
@@ -152,14 +153,14 @@ If we do not detach() fake_images, then the update of Teacher will also update t
 
 
 <p align="center">
-    <img src = 'img/16.png' width = 600px height = 130px>
+    <img src = './img/16.png' width = 600px height = 130px>
 </p>
 
 
 ## Why cannot we use sample Generator?
 
 <p align="center">
-    <img src = 'img/17.png' width = 600px height = 400px>
+    <img src = './img/17.png' width = 600px height = 400px>
 </p>
 
 ## GANS
@@ -169,8 +170,11 @@ If we do not detach() fake_images, then the update of Teacher will also update t
 A Conditional Generative Adversarial Network (CGAN) is an extension of the basic Generative Adversarial Network (GAN) framework that allows the generation of synthetic data conditioned on certain inputs. This conditioning can be in the form of labels, tags, or other types of data that direct the generation process, enabling the model to produce more specific or targeted outputs
 
 <p align="center">
-    <img src = 'img/18.png' width = 600px height = 350px>
+    <img src = './img/18.png' width = 600px height = 350px>
 </p>
+
+
+Mirza, M., & Osindero, S. (2014). Conditional Generative Adversarial Nets. CoRR, abs/1411.1784. http://arxiv.org/abs/1411.1784
 
 
 Here is an exmaple of Generator and Discrimator on MNIST
@@ -229,8 +233,19 @@ class Discriminator(nn.Module):
         return self.model(x)
 ```
 
+### DCGAN
 
-### Generator
+
+DCGAN 将卷积神经网络和对抗神经网络结合起来的，核心要素是：在不改变GAN原理的情况下提出一些有助于增强稳定性的tricks。
+
+GAN训练时并没有想象的稳定，生成器最后经常产生无意义的输出或奔溃，但是DCGAN按照tricks能生成较好的图像。
+
+<p align="center">
+    <img src = './img/19.png' width = 600px height = 400px>
+</p>
+
+Radford, A., Metz, L., & Chintala, S. (2015). Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks. CoRR, abs/1511.06434. http://arxiv.org/abs/1511.06434
+
 
 **ConvTranspose2d**
 
@@ -238,11 +253,65 @@ ConvTranspose2d, often called transposed convolution or deconvolution, is the in
 
 
 <p align="center">
-    <img src = 'img/12.png' width = 361px height = 600px>
+    <img src = './img/12.png' width = 361px height = 600px>
 </p>
 
 
 https://github.com/vdumoulin/conv_arithmetic/blob/master/README.md
+
+
+### ACGAN
+
+<p align="center">
+    <img src = './img/20.png' width = 350px height = 400px>
+    <img src = './img/21.png' width = 350px height = 400px>
+</p>
+Odena, A., Olah, C., & Shlens, J. (2017). Conditional Image Synthesis with Auxiliary Classifier GANs. Proceedings of the 34th International Conference on Machine Learning, 70, 2642-2651.
+
+
+
+**Purpose:** ACGAN extends the cGAN by adding an auxiliary classifier on top of the discriminator to explicitly classify the output images. This classifier ensures that the generated images not only fool the discriminator in terms of authenticity but are also correctly classified according to the conditioned labels.
+
+**Is ACGAN better?**
+- **Quality and Diversity**: ACGAN generally produces higher quality results compared to cGANs because it explicitly optimizes for correct class labeling in addition to the realness of the images. This dual objective helps in better capturing the diversity of characteristics within each class.
+- **Stability and Convergence**: The additional classification task in ACGAN can help stabilize the training process, as it provides more structured gradients to both the generator and discriminator. However, this also means ACGAN might be more complex to tune due to its additional loss component
+
+
+### WGAN
+
+
+GAN的问题：
+- 不一定收敛，学习率不能高，G、D要共同成长，不能其中一个成长的过快
+    – 判别器训练得太好，生成器梯度消失，生成器loss降不下去
+    – 判别器训练得不好，生成器梯度不准，四处乱跑
+- 奔溃的问题，通俗说G找到D的漏洞，每次都生成一样的骗D
+- 模型过于自由，不可控
+
+GAN需要重视：稳定（训练不崩）、多样性（样本不能重复）、清晰度（质量好），2014-2017年的很多工作也是解决这三个问题。
+
+为什么GAN存在这些问题，这是因为GAN原论文将GAN目标转换成了KL散度的问题，KL散度就是存在这些坑。
+
+最终导致偏向于生成“稳妥”的样本，如下图所示，目标target是均匀分布的，但最终生成偏稳妥的样本。
+- “生成器没能生成真实的样本” 惩罚小
+- “生成器生成不真实的样本” 惩罚大
+
+
+<p align="center">
+    <img src = './img/22.png' width = 600px height = 200px>
+</p>
+
+
+WGAN（Wasserstein GAN）在2017年被提出，也算是GAN中里程碑式的论文，它从原理上解决了GAN的问题。具体思路为
+- 判别器最后一层去掉sigmoid
+- 生成器和判别器的loss不取log
+- 每次更新判别器的参数之后把它们的绝对值截断到不超过一个固定的常数c
+- 不要用基于动量的优化算法（包括Momentum和Adam），推荐使用RMSProp、SGD
+- 用Wasserstein距离代替KL散度，训练网络稳定性大大增强，不用拘泥DCGAN的那些策略（tricks）
+
+
+后续接着改进，提出了WGAN-GP（WGAN with gradient penalty），不截断，只对梯度增加惩罚项生成质量更高的图像。
+
+
 
 
 **upsample**
@@ -250,9 +319,6 @@ https://github.com/vdumoulin/conv_arithmetic/blob/master/README.md
 https://pytorch.org/docs/stable/generated/torch.nn.Upsample.html
 
 
-### Discrimator
-
-The discriminator in a GAN is simply a classifier. It tries to distinguish real data from the data created by the generator.
 
 
 

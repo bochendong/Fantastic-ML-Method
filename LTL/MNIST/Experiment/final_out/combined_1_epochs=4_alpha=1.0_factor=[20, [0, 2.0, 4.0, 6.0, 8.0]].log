@@ -1,45 +1,54 @@
-2024-06-01 09:54:28,786 - INFO - ##########Task 0##########
-2024-06-01 09:54:28,786 - INFO - Epoch 0
-2024-06-01 09:54:34,283 - INFO - Epoch: 0, , Task 0 acc: 77.3677, Task avg acc:77.3677
-2024-06-01 09:54:34,283 - INFO - Epoch 1
-2024-06-01 09:54:39,386 - INFO - Epoch: 1, , Task 0 acc: 96.2213, Task avg acc:96.2213
-2024-06-01 09:54:39,387 - INFO - Epoch 2
-2024-06-01 09:54:44,656 - INFO - Epoch: 2, , Task 0 acc: 97.4570, Task avg acc:97.4570
-2024-06-01 09:54:44,657 - INFO - Epoch 3
-2024-06-01 09:54:49,924 - INFO - Epoch: 3, , Task 0 acc: 98.0309, Task avg acc:98.0309
-2024-06-01 09:54:49,940 - INFO - ##########Task 1##########
-2024-06-01 09:54:49,941 - INFO - Epoch 0
-2024-06-01 09:54:57,417 - INFO - Epoch: 0, , Task 0 acc: 68.0724, Task 1 acc: 65.9491, Task avg acc:67.0108
-2024-06-01 09:54:57,418 - INFO - Epoch 1
-2024-06-01 09:55:04,946 - INFO - Epoch: 1, , Task 0 acc: 73.7883, Task 1 acc: 81.3414, Task avg acc:77.5648
-2024-06-01 09:55:04,947 - INFO - Epoch 2
-2024-06-01 09:55:13,369 - INFO - Epoch: 2, , Task 0 acc: 60.6665, Task 1 acc: 77.3604, Task avg acc:69.0134
-2024-06-01 09:55:13,370 - INFO - Epoch 3
-2024-06-01 09:55:21,608 - INFO - Epoch: 3, , Task 0 acc: 73.7404, Task 1 acc: 71.6090, Task avg acc:72.6747
-2024-06-01 09:55:21,622 - INFO - ##########Task 2##########
-2024-06-01 09:55:21,622 - INFO - Epoch 0
-2024-06-01 09:55:32,260 - INFO - Epoch: 0, , Task 0 acc: 65.9997, Task 1 acc: 20.9192, Task 2 acc: 54.2116, Task avg acc:47.0435
-2024-06-01 09:55:32,261 - INFO - Epoch 1
-2024-06-01 09:55:41,640 - INFO - Epoch: 1, , Task 0 acc: 59.3591, Task 1 acc: 16.3065, Task 2 acc: 52.4784, Task avg acc:42.7147
-2024-06-01 09:55:41,641 - INFO - Epoch 2
-2024-06-01 09:55:51,451 - INFO - Epoch: 2, , Task 0 acc: 61.5434, Task 1 acc: 34.5080, Task 2 acc: 53.4932, Task avg acc:49.8482
-2024-06-01 09:55:51,452 - INFO - Epoch 3
-2024-06-01 09:56:02,515 - INFO - Epoch: 3, , Task 0 acc: 62.4442, Task 1 acc: 30.1031, Task 2 acc: 60.6501, Task avg acc:51.0658
-2024-06-01 09:56:02,530 - INFO - ##########Task 3##########
-2024-06-01 09:56:02,531 - INFO - Epoch 0
-2024-06-01 09:56:15,979 - INFO - Epoch: 0, , Task 0 acc: 66.5019, Task 1 acc: 12.8241, Task 2 acc: 15.0323, Task 3 acc: 58.8405, Task avg acc:38.2997
-2024-06-01 09:56:15,980 - INFO - Epoch 1
-2024-06-01 09:56:28,173 - INFO - Epoch: 1, , Task 0 acc: 85.2997, Task 1 acc: 12.4917, Task 2 acc: 5.7292, Task 3 acc: 67.1793, Task avg acc:42.6750
-2024-06-01 09:56:28,174 - INFO - Epoch 2
-2024-06-01 09:56:40,397 - INFO - Epoch: 2, , Task 0 acc: 83.8648, Task 1 acc: 9.4997, Task 2 acc: 29.1756, Task 3 acc: 61.7763, Task avg acc:46.0791
-2024-06-01 09:56:40,398 - INFO - Epoch 3
-2024-06-01 09:56:52,532 - INFO - Epoch: 3, , Task 0 acc: 81.5210, Task 1 acc: 15.0515, Task 2 acc: 17.9598, Task 3 acc: 57.6398, Task avg acc:43.0430
-2024-06-01 09:56:52,547 - INFO - ##########Task 4##########
-2024-06-01 09:56:52,547 - INFO - Epoch 0
-2024-06-01 09:57:07,306 - INFO - Epoch: 0, , Task 0 acc: 74.1071, Task 1 acc: 17.1709, Task 2 acc: 13.9547, Task 3 acc: 0.9622, Task 4 acc: 61.6508, Task avg acc:33.5691
-2024-06-01 09:57:07,307 - INFO - Epoch 1
-2024-06-01 09:57:21,897 - INFO - Epoch: 1, , Task 0 acc: 76.4828, Task 1 acc: 34.5994, Task 2 acc: 7.7137, Task 3 acc: 5.5099, Task 4 acc: 59.4684, Task avg acc:36.7548
-2024-06-01 09:57:21,898 - INFO - Epoch 2
-2024-06-01 09:57:36,344 - INFO - Epoch: 2, , Task 0 acc: 75.4066, Task 1 acc: 36.3697, Task 2 acc: 11.8714, Task 3 acc: 2.5905, Task 4 acc: 57.5323, Task avg acc:36.7541
-2024-06-01 09:57:36,345 - INFO - Epoch 3
-2024-06-01 09:57:50,336 - INFO - Epoch: 3, , Task 0 acc: 74.5137, Task 1 acc: 32.5881, Task 2 acc: 5.6663, Task 3 acc: 4.4984, Task 4 acc: 62.1179, Task avg acc:35.8769
+2024-06-02 00:41:45,407 - INFO - ##########Task 0##########
+2024-06-02 00:41:45,408 - INFO - Epoch 0
+2024-06-02 00:41:51,084 - INFO - Epoch: 0, , Task 0 acc: 91.1591, Task avg acc:91.1591
+2024-06-02 00:41:51,085 - INFO - Epoch 1
+2024-06-02 00:41:56,280 - INFO - Epoch: 1, , Task 0 acc: 94.9697, Task avg acc:94.9697
+2024-06-02 00:41:56,280 - INFO - Epoch 2
+2024-06-02 00:42:01,627 - INFO - Epoch: 2, , Task 0 acc: 98.6368, Task avg acc:98.6368
+2024-06-02 00:42:01,628 - INFO - Epoch 3
+2024-06-02 00:42:06,978 - INFO - Epoch: 3, , Task 0 acc: 97.1779, Task avg acc:97.1779
+2024-06-02 00:43:37,492 - INFO - ##########Task 0##########
+2024-06-02 00:43:37,493 - INFO - Epoch 0
+2024-06-02 00:43:43,170 - INFO - Epoch: 0, , Task 0 acc: 77.5989, Task avg acc:77.5989
+2024-06-02 00:43:43,170 - INFO - Epoch 1
+2024-06-02 00:43:48,527 - INFO - Epoch: 1, , Task 0 acc: 87.7710, Task avg acc:87.7710
+2024-06-02 00:43:48,528 - INFO - Epoch 2
+2024-06-02 00:43:53,925 - INFO - Epoch: 2, , Task 0 acc: 97.5048, Task avg acc:97.5048
+2024-06-02 00:43:53,926 - INFO - Epoch 3
+2024-06-02 00:43:59,281 - INFO - Epoch: 3, , Task 0 acc: 95.2009, Task avg acc:95.2009
+2024-06-02 00:43:59,295 - INFO - ##########Task 1##########
+2024-06-02 00:43:59,296 - INFO - Epoch 0
+2024-06-02 00:44:06,911 - INFO - Epoch: 0, , Task 0 acc: 49.9123, Task 1 acc: 88.6220, Task avg acc:69.2672
+2024-06-02 00:44:06,912 - INFO - Epoch 1
+2024-06-02 00:44:14,557 - INFO - Epoch: 1, , Task 0 acc: 52.8380, Task 1 acc: 87.3005, Task avg acc:70.0693
+2024-06-02 00:44:14,558 - INFO - Epoch 2
+2024-06-02 00:44:22,222 - INFO - Epoch: 2, , Task 0 acc: 58.5061, Task 1 acc: 83.6104, Task avg acc:71.0582
+2024-06-02 00:44:22,223 - INFO - Epoch 3
+2024-06-02 00:44:29,851 - INFO - Epoch: 3, , Task 0 acc: 52.8619, Task 1 acc: 76.4378, Task avg acc:64.6499
+2024-06-02 00:44:29,865 - INFO - ##########Task 2##########
+2024-06-02 00:44:29,867 - INFO - Epoch 0
+2024-06-02 00:44:39,698 - INFO - Epoch: 0, , Task 0 acc: 55.6601, Task 1 acc: 33.6769, Task 2 acc: 59.0338, Task avg acc:49.4569
+2024-06-02 00:44:39,699 - INFO - Epoch 1
+2024-06-02 00:44:50,081 - INFO - Epoch: 1, , Task 0 acc: 53.4200, Task 1 acc: 35.1313, Task 2 acc: 61.5212, Task avg acc:50.0242
+2024-06-02 00:44:50,081 - INFO - Epoch 2
+2024-06-02 00:44:59,374 - INFO - Epoch: 2, , Task 0 acc: 54.6875, Task 1 acc: 30.0449, Task 2 acc: 69.1182, Task avg acc:51.2835
+2024-06-02 00:44:59,375 - INFO - Epoch 3
+2024-06-02 00:45:08,558 - INFO - Epoch: 3, , Task 0 acc: 56.8479, Task 1 acc: 35.9209, Task 2 acc: 67.0528, Task avg acc:53.2739
+2024-06-02 00:45:08,571 - INFO - ##########Task 3##########
+2024-06-02 00:45:08,572 - INFO - Epoch 0
+2024-06-02 00:45:20,347 - INFO - Epoch: 0, , Task 0 acc: 89.7800, Task 1 acc: 3.0918, Task 2 acc: 44.2170, Task 3 acc: 79.3914, Task avg acc:54.1200
+2024-06-02 00:45:20,348 - INFO - Epoch 1
+2024-06-02 00:45:32,162 - INFO - Epoch: 1, , Task 0 acc: 70.7270, Task 1 acc: 9.5329, Task 2 acc: 28.4662, Task 3 acc: 88.6020, Task avg acc:49.3320
+2024-06-02 00:45:32,163 - INFO - Epoch 2
+2024-06-02 00:45:43,878 - INFO - Epoch: 2, , Task 0 acc: 53.4120, Task 1 acc: 29.7623, Task 2 acc: 41.1009, Task 3 acc: 77.1628, Task avg acc:50.3595
+2024-06-02 00:45:43,878 - INFO - Epoch 3
+2024-06-02 00:45:55,606 - INFO - Epoch: 3, , Task 0 acc: 58.1712, Task 1 acc: 23.8032, Task 2 acc: 20.2227, Task 3 acc: 90.6743, Task avg acc:48.2179
+2024-06-02 00:45:55,618 - INFO - ##########Task 4##########
+2024-06-02 00:45:55,620 - INFO - Epoch 0
+2024-06-02 00:46:09,435 - INFO - Epoch: 0, , Task 0 acc: 47.5765, Task 1 acc: 16.3314, Task 2 acc: 20.4831, Task 3 acc: 7.0888, Task 4 acc: 62.7038, Task avg acc:30.8367
+2024-06-02 00:46:09,436 - INFO - Epoch 1
+2024-06-02 00:46:23,282 - INFO - Epoch: 1, , Task 0 acc: 54.1693, Task 1 acc: 19.3567, Task 2 acc: 8.7105, Task 3 acc: 38.9145, Task 4 acc: 73.8451, Task avg acc:38.9992
+2024-06-02 00:46:23,283 - INFO - Epoch 2
+2024-06-02 00:46:38,667 - INFO - Epoch: 2, , Task 0 acc: 54.8071, Task 1 acc: 17.1376, Task 2 acc: 1.0506, Task 3 acc: 38.4622, Task 4 acc: 84.9100, Task avg acc:39.2735
+2024-06-02 00:46:38,668 - INFO - Epoch 3
+2024-06-02 00:46:52,538 - INFO - Epoch: 3, , Task 0 acc: 64.1741, Task 1 acc: 24.1938, Task 2 acc: 3.9152, Task 3 acc: 41.6118, Task 4 acc: 79.9677, Task avg acc:42.7725

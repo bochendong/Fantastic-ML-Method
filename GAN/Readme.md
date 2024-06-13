@@ -244,6 +244,16 @@ GAN训练时并没有想象的稳定，生成器最后经常产生无意义的�
     <img src = './img/19.png' width = 600px height = 400px>
 </p>
 
+- 没有linear 层：DCGAN在生成器和判别器中使用卷积层而非全连接层，这使得模型能够更有效地处理图像数据。
+
+- 去除pooling层：DCGAN在架构中去掉了池化层，取而代之的是使用步幅（strided）卷积在判别器中进行下采样，以及在生成器中使用分数步幅（fractional-strided）卷积进行上采样。
+
+- BN：DCGAN在生成器和判别器中使用批标准化（batch normalization）。这有助于模型训练过程中的稳定性，同时避免生成器在训练初期产生的样本坍缩问题。
+
+- 使用Leaky ReLU激活函数：在判别器中，DCGAN使用Leaky ReLU作为激活函数，它允许小幅的梯度当输入值为负时仍然传递，从而帮助梯度流动并改善训练过程。
+
+- 生成器和判别器的对称结构：DCGAN通常设计生成器和判别器为对称结构，使得两者在学习过程中能够更有效地相互适应。
+
 Radford, A., Metz, L., & Chintala, S. (2015). Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks. CoRR, abs/1511.06434. http://arxiv.org/abs/1511.06434
 
 

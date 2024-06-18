@@ -1,0 +1,221 @@
+2024-05-27 12:17:50,605 - INFO - ##########Task 0##########
+2024-05-27 12:17:50,605 - INFO - Epoch 0
+2024-05-27 12:17:52,876 - INFO - Batch num: 0, Task 0 acc: 6.9436, Task avg acc:6.9436
+2024-05-27 12:17:55,416 - INFO - Batch num: 10, Task 0 acc: 46.4365, Task avg acc:46.4365
+2024-05-27 12:17:57,997 - INFO - Batch num: 20, Task 0 acc: 46.8591, Task avg acc:46.8591
+2024-05-27 12:18:00,539 - INFO - Batch num: 30, Task 0 acc: 80.4050, Task avg acc:80.4050
+2024-05-27 12:18:03,083 - INFO - Batch num: 40, Task 0 acc: 83.6017, Task avg acc:83.6017
+2024-05-27 12:18:05,624 - INFO - Batch num: 50, Task 0 acc: 93.7181, Task avg acc:93.7181
+2024-05-27 12:18:08,193 - INFO - Batch num: 60, Task 0 acc: 94.0848, Task avg acc:94.0848
+2024-05-27 12:18:10,765 - INFO - Batch num: 70, Task 0 acc: 96.9149, Task avg acc:96.9149
+2024-05-27 12:18:13,419 - INFO - Batch num: 80, Task 0 acc: 98.5651, Task avg acc:98.5651
+2024-05-27 12:18:16,071 - INFO - Batch num: 90, Task 0 acc: 98.4455, Task avg acc:98.4455
+2024-05-27 12:18:16,405 - INFO - Epoch 1
+2024-05-27 12:18:18,671 - INFO - Batch num: 0, Task 0 acc: 98.7325, Task avg acc:98.7325
+2024-05-27 12:18:21,324 - INFO - Batch num: 10, Task 0 acc: 98.8680, Task avg acc:98.8680
+2024-05-27 12:18:24,004 - INFO - Batch num: 20, Task 0 acc: 99.1629, Task avg acc:99.1629
+2024-05-27 12:18:26,644 - INFO - Batch num: 30, Task 0 acc: 99.0513, Task avg acc:99.0513
+2024-05-27 12:18:29,294 - INFO - Batch num: 40, Task 0 acc: 99.2825, Task avg acc:99.2825
+2024-05-27 12:18:31,972 - INFO - Batch num: 50, Task 0 acc: 99.2666, Task avg acc:99.2666
+2024-05-27 12:18:34,619 - INFO - Batch num: 60, Task 0 acc: 99.2666, Task avg acc:99.2666
+2024-05-27 12:18:37,264 - INFO - Batch num: 70, Task 0 acc: 99.3543, Task avg acc:99.3543
+2024-05-27 12:18:39,909 - INFO - Batch num: 80, Task 0 acc: 99.5615, Task avg acc:99.5615
+2024-05-27 12:18:42,585 - INFO - Batch num: 90, Task 0 acc: 99.5137, Task avg acc:99.5137
+2024-05-27 12:18:42,915 - INFO - Epoch 2
+2024-05-27 12:18:45,139 - INFO - Batch num: 0, Task 0 acc: 99.5536, Task avg acc:99.5536
+2024-05-27 12:18:47,784 - INFO - Batch num: 10, Task 0 acc: 99.6094, Task avg acc:99.6094
+2024-05-27 12:18:50,427 - INFO - Batch num: 20, Task 0 acc: 99.5297, Task avg acc:99.5297
+2024-05-27 12:18:53,092 - INFO - Batch num: 30, Task 0 acc: 99.4898, Task avg acc:99.4898
+2024-05-27 12:18:55,782 - INFO - Batch num: 40, Task 0 acc: 99.5376, Task avg acc:99.5376
+2024-05-27 12:18:58,426 - INFO - Batch num: 50, Task 0 acc: 99.5376, Task avg acc:99.5376
+2024-05-27 12:19:01,076 - INFO - Batch num: 60, Task 0 acc: 99.5536, Task avg acc:99.5536
+2024-05-27 12:19:03,720 - INFO - Batch num: 70, Task 0 acc: 99.5297, Task avg acc:99.5297
+2024-05-27 12:19:06,353 - INFO - Batch num: 80, Task 0 acc: 99.5695, Task avg acc:99.5695
+2024-05-27 12:19:09,049 - INFO - Batch num: 90, Task 0 acc: 99.5695, Task avg acc:99.5695
+2024-05-27 12:19:09,380 - INFO - Epoch 3
+2024-05-27 12:19:11,593 - INFO - Batch num: 0, Task 0 acc: 99.5934, Task avg acc:99.5934
+2024-05-27 12:19:14,235 - INFO - Batch num: 10, Task 0 acc: 99.5695, Task avg acc:99.5695
+2024-05-27 12:19:16,913 - INFO - Batch num: 20, Task 0 acc: 99.6173, Task avg acc:99.6173
+2024-05-27 12:19:19,551 - INFO - Batch num: 30, Task 0 acc: 99.5536, Task avg acc:99.5536
+2024-05-27 12:19:22,184 - INFO - Batch num: 40, Task 0 acc: 99.6014, Task avg acc:99.6014
+2024-05-27 12:19:24,834 - INFO - Batch num: 50, Task 0 acc: 99.6333, Task avg acc:99.6333
+2024-05-27 12:19:27,478 - INFO - Batch num: 60, Task 0 acc: 99.6652, Task avg acc:99.6652
+2024-05-27 12:19:30,154 - INFO - Batch num: 70, Task 0 acc: 99.6253, Task avg acc:99.6253
+2024-05-27 12:19:32,825 - INFO - Batch num: 80, Task 0 acc: 99.6333, Task avg acc:99.6333
+2024-05-27 12:19:35,470 - INFO - Batch num: 90, Task 0 acc: 99.6173, Task avg acc:99.6173
+2024-05-27 12:19:35,811 - INFO - ##########Task 1##########
+2024-05-27 12:19:35,811 - INFO - Epoch 0
+2024-05-27 12:19:40,109 - INFO - Batch num: 0, Task 0 acc: 99.6014, Batch num: 0, Task 1 acc: 0.1080, Task avg acc:49.8547
+2024-05-27 12:19:45,009 - INFO - Batch num: 10, Task 0 acc: 99.6173, Batch num: 10, Task 1 acc: 0.7397, Task avg acc:50.1785
+2024-05-27 12:19:49,805 - INFO - Batch num: 20, Task 0 acc: 99.6891, Batch num: 20, Task 1 acc: 19.0160, Task avg acc:59.3525
+2024-05-27 12:19:54,533 - INFO - Batch num: 30, Task 0 acc: 99.6572, Batch num: 30, Task 1 acc: 46.4262, Task avg acc:73.0417
+2024-05-27 12:19:59,406 - INFO - Batch num: 40, Task 0 acc: 97.0026, Batch num: 40, Task 1 acc: 59.6326, Task avg acc:78.3176
+2024-05-27 12:20:04,010 - INFO - Batch num: 50, Task 0 acc: 87.2210, Batch num: 50, Task 1 acc: 68.1184, Task avg acc:77.6697
+2024-05-27 12:20:08,549 - INFO - Batch num: 60, Task 0 acc: 82.3740, Batch num: 60, Task 1 acc: 64.5030, Task avg acc:73.4385
+2024-05-27 12:20:13,096 - INFO - Batch num: 70, Task 0 acc: 81.1942, Batch num: 70, Task 1 acc: 71.2600, Task avg acc:76.2271
+2024-05-27 12:20:17,655 - INFO - Batch num: 80, Task 0 acc: 64.8119, Batch num: 80, Task 1 acc: 74.5013, Task avg acc:69.6566
+2024-05-27 12:20:22,244 - INFO - Batch num: 90, Task 0 acc: 75.4703, Batch num: 90, Task 1 acc: 75.8976, Task avg acc:75.6840
+2024-05-27 12:20:22,378 - INFO - Epoch 1
+2024-05-27 12:20:26,553 - INFO - Batch num: 0, Task 0 acc: 68.3673, Batch num: 0, Task 1 acc: 77.3188, Task avg acc:72.8431
+2024-05-27 12:20:31,099 - INFO - Batch num: 10, Task 0 acc: 66.6295, Batch num: 10, Task 1 acc: 79.7124, Task avg acc:73.1709
+2024-05-27 12:20:35,640 - INFO - Batch num: 20, Task 0 acc: 69.3718, Batch num: 20, Task 1 acc: 82.0562, Task avg acc:75.7140
+2024-05-27 12:20:40,222 - INFO - Batch num: 30, Task 0 acc: 63.8632, Batch num: 30, Task 1 acc: 82.4551, Task avg acc:73.1592
+2024-05-27 12:20:44,820 - INFO - Batch num: 40, Task 0 acc: 61.0332, Batch num: 40, Task 1 acc: 83.4026, Task avg acc:72.2179
+2024-05-27 12:20:49,587 - INFO - Batch num: 50, Task 0 acc: 62.3326, Batch num: 50, Task 1 acc: 81.4910, Task avg acc:71.9118
+2024-05-27 12:20:54,177 - INFO - Batch num: 60, Task 0 acc: 51.9611, Batch num: 60, Task 1 acc: 83.0868, Task avg acc:67.5239
+2024-05-27 12:20:58,734 - INFO - Batch num: 70, Task 0 acc: 54.4962, Batch num: 70, Task 1 acc: 85.2227, Task avg acc:69.8595
+2024-05-27 12:21:03,308 - INFO - Batch num: 80, Task 0 acc: 37.3246, Batch num: 80, Task 1 acc: 84.9900, Task avg acc:61.1573
+2024-05-27 12:21:07,959 - INFO - Batch num: 90, Task 0 acc: 48.3020, Batch num: 90, Task 1 acc: 84.6077, Task avg acc:66.4548
+2024-05-27 12:21:08,091 - INFO - Epoch 2
+2024-05-27 12:21:12,316 - INFO - Batch num: 0, Task 0 acc: 42.1317, Batch num: 0, Task 1 acc: 86.1287, Task avg acc:64.1302
+2024-05-27 12:21:16,865 - INFO - Batch num: 10, Task 0 acc: 28.5475, Batch num: 10, Task 1 acc: 88.7550, Task avg acc:58.6512
+2024-05-27 12:21:21,509 - INFO - Batch num: 20, Task 0 acc: 29.9984, Batch num: 20, Task 1 acc: 89.3700, Task avg acc:59.6842
+2024-05-27 12:21:26,041 - INFO - Batch num: 30, Task 0 acc: 27.9018, Batch num: 30, Task 1 acc: 90.9990, Task avg acc:59.4504
+2024-05-27 12:21:30,612 - INFO - Batch num: 40, Task 0 acc: 22.7280, Batch num: 40, Task 1 acc: 91.5642, Task avg acc:57.1461
+2024-05-27 12:21:35,247 - INFO - Batch num: 50, Task 0 acc: 26.0842, Batch num: 50, Task 1 acc: 90.6915, Task avg acc:58.3878
+2024-05-27 12:21:39,843 - INFO - Batch num: 60, Task 0 acc: 15.5134, Batch num: 60, Task 1 acc: 92.3703, Task avg acc:53.9419
+2024-05-27 12:21:44,382 - INFO - Batch num: 70, Task 0 acc: 23.5172, Batch num: 70, Task 1 acc: 91.1320, Task avg acc:57.3246
+2024-05-27 12:21:48,949 - INFO - Batch num: 80, Task 0 acc: 9.3670, Batch num: 80, Task 1 acc: 93.0436, Task avg acc:51.2053
+2024-05-27 12:21:53,506 - INFO - Batch num: 90, Task 0 acc: 10.2280, Batch num: 90, Task 1 acc: 93.6004, Task avg acc:51.9142
+2024-05-27 12:21:53,638 - INFO - Epoch 3
+2024-05-27 12:21:57,819 - INFO - Batch num: 0, Task 0 acc: 8.8090, Batch num: 0, Task 1 acc: 93.2596, Task avg acc:51.0343
+2024-05-27 12:22:02,372 - INFO - Batch num: 10, Task 0 acc: 12.0456, Batch num: 10, Task 1 acc: 92.3371, Task avg acc:52.1914
+2024-05-27 12:22:06,926 - INFO - Batch num: 20, Task 0 acc: 6.5450, Batch num: 20, Task 1 acc: 93.0851, Task avg acc:49.8150
+2024-05-27 12:22:11,475 - INFO - Batch num: 30, Task 0 acc: 4.5121, Batch num: 30, Task 1 acc: 93.6087, Task avg acc:49.0604
+2024-05-27 12:22:16,067 - INFO - Batch num: 40, Task 0 acc: 7.6849, Batch num: 40, Task 1 acc: 93.1765, Task avg acc:50.4307
+2024-05-27 12:22:20,613 - INFO - Batch num: 50, Task 0 acc: 3.1888, Batch num: 50, Task 1 acc: 94.5146, Task avg acc:48.8517
+2024-05-27 12:22:25,321 - INFO - Batch num: 60, Task 0 acc: 5.9391, Batch num: 60, Task 1 acc: 93.9245, Task avg acc:49.9318
+2024-05-27 12:22:29,883 - INFO - Batch num: 70, Task 0 acc: 2.2561, Batch num: 70, Task 1 acc: 94.5811, Task avg acc:48.4186
+2024-05-27 12:22:34,475 - INFO - Batch num: 80, Task 0 acc: 3.1888, Batch num: 80, Task 1 acc: 94.3235, Task avg acc:48.7561
+2024-05-27 12:22:39,015 - INFO - Batch num: 90, Task 0 acc: 2.0488, Batch num: 90, Task 1 acc: 94.0575, Task avg acc:48.0532
+2024-05-27 12:22:39,157 - INFO - ##########Task 2##########
+2024-05-27 12:22:39,158 - INFO - Epoch 0
+2024-05-27 12:22:45,170 - INFO - Batch num: 0, Task 0 acc: 2.7184, Batch num: 0, Task 1 acc: 94.4564, Batch num: 0, Task 2 acc: 0.0000, Task avg acc:32.3916
+2024-05-27 12:22:51,626 - INFO - Batch num: 10, Task 0 acc: 0.7015, Batch num: 10, Task 1 acc: 94.6227, Batch num: 10, Task 2 acc: 0.0000, Task avg acc:31.7747
+2024-05-27 12:22:58,048 - INFO - Batch num: 20, Task 0 acc: 1.8575, Batch num: 20, Task 1 acc: 94.5562, Batch num: 20, Task 2 acc: 0.0000, Task avg acc:32.1379
+2024-05-27 12:23:04,471 - INFO - Batch num: 30, Task 0 acc: 2.0647, Batch num: 30, Task 1 acc: 94.3733, Batch num: 30, Task 2 acc: 0.0180, Task avg acc:32.1520
+2024-05-27 12:23:10,876 - INFO - Batch num: 40, Task 0 acc: 1.2277, Batch num: 40, Task 1 acc: 94.7806, Batch num: 40, Task 2 acc: 0.0718, Task avg acc:32.0267
+2024-05-27 12:23:17,565 - INFO - Batch num: 50, Task 0 acc: 0.8450, Batch num: 50, Task 1 acc: 95.5120, Batch num: 50, Task 2 acc: 1.5715, Task avg acc:32.6428
+2024-05-27 12:23:23,996 - INFO - Batch num: 60, Task 0 acc: 0.4145, Batch num: 60, Task 1 acc: 95.8527, Batch num: 60, Task 2 acc: 10.0754, Task avg acc:35.4476
+2024-05-27 12:23:30,409 - INFO - Batch num: 70, Task 0 acc: 0.3747, Batch num: 70, Task 1 acc: 95.5452, Batch num: 70, Task 2 acc: 11.1800, Task avg acc:35.7000
+2024-05-27 12:23:36,851 - INFO - Batch num: 80, Task 0 acc: 0.2551, Batch num: 80, Task 1 acc: 95.2543, Batch num: 80, Task 2 acc: 22.8538, Task avg acc:39.4544
+2024-05-27 12:23:37,114 - INFO - Epoch 1
+2024-05-27 12:23:43,172 - INFO - Batch num: 0, Task 0 acc: 0.4066, Batch num: 0, Task 1 acc: 93.3012, Batch num: 0, Task 2 acc: 32.6778, Task avg acc:42.1285
+2024-05-27 12:23:49,577 - INFO - Batch num: 10, Task 0 acc: 0.1036, Batch num: 10, Task 1 acc: 92.8939, Batch num: 10, Task 2 acc: 36.6200, Task avg acc:43.2059
+2024-05-27 12:23:55,986 - INFO - Batch num: 20, Task 0 acc: 0.3986, Batch num: 20, Task 1 acc: 89.1622, Batch num: 20, Task 2 acc: 46.1207, Task avg acc:45.2272
+2024-05-27 12:24:02,442 - INFO - Batch num: 30, Task 0 acc: 0.0319, Batch num: 30, Task 1 acc: 87.9987, Batch num: 30, Task 2 acc: 47.3689, Task avg acc:45.1332
+2024-05-27 12:24:09,078 - INFO - Batch num: 40, Task 0 acc: 0.0717, Batch num: 40, Task 1 acc: 84.6659, Batch num: 40, Task 2 acc: 56.3398, Task avg acc:47.0258
+2024-05-27 12:24:15,493 - INFO - Batch num: 50, Task 0 acc: 0.3986, Batch num: 50, Task 1 acc: 82.6961, Batch num: 50, Task 2 acc: 56.3937, Task avg acc:46.4961
+2024-05-27 12:24:21,946 - INFO - Batch num: 60, Task 0 acc: 0.2152, Batch num: 60, Task 1 acc: 77.6346, Batch num: 60, Task 2 acc: 59.5815, Task avg acc:45.8105
+2024-05-27 12:24:28,343 - INFO - Batch num: 70, Task 0 acc: 0.4943, Batch num: 70, Task 1 acc: 78.0502, Batch num: 70, Task 2 acc: 58.2525, Task avg acc:45.5990
+2024-05-27 12:24:34,737 - INFO - Batch num: 80, Task 0 acc: 0.2631, Batch num: 80, Task 1 acc: 75.0997, Batch num: 80, Task 2 acc: 61.1351, Task avg acc:45.4993
+2024-05-27 12:24:35,005 - INFO - Epoch 2
+2024-05-27 12:24:41,077 - INFO - Batch num: 0, Task 0 acc: 0.3109, Batch num: 0, Task 1 acc: 71.7503, Batch num: 0, Task 2 acc: 62.0420, Task avg acc:44.7011
+2024-05-27 12:24:47,484 - INFO - Batch num: 10, Task 0 acc: 0.0877, Batch num: 10, Task 1 acc: 72.6562, Batch num: 10, Task 2 acc: 61.6110, Task avg acc:44.7850
+2024-05-27 12:24:53,936 - INFO - Batch num: 20, Task 0 acc: 0.4305, Batch num: 20, Task 1 acc: 65.3507, Batch num: 20, Task 2 acc: 65.9932, Task avg acc:43.9248
+2024-05-27 12:25:00,622 - INFO - Batch num: 30, Task 0 acc: 0.1276, Batch num: 30, Task 1 acc: 64.8936, Batch num: 30, Task 2 acc: 60.2550, Task avg acc:41.7587
+2024-05-27 12:25:07,060 - INFO - Batch num: 40, Task 0 acc: 0.2152, Batch num: 40, Task 1 acc: 60.5967, Batch num: 40, Task 2 acc: 69.3157, Task avg acc:43.3759
+2024-05-27 12:25:13,456 - INFO - Batch num: 50, Task 0 acc: 0.5660, Batch num: 50, Task 1 acc: 58.0951, Batch num: 50, Task 2 acc: 70.0162, Task avg acc:42.8924
+2024-05-27 12:25:19,896 - INFO - Batch num: 60, Task 0 acc: 0.2073, Batch num: 60, Task 1 acc: 58.3112, Batch num: 60, Task 2 acc: 70.4652, Task avg acc:42.9945
+2024-05-27 12:25:27,407 - INFO - Batch num: 70, Task 0 acc: 2.4474, Batch num: 70, Task 1 acc: 53.0419, Batch num: 70, Task 2 acc: 72.1085, Task avg acc:42.5326
+2024-05-27 12:25:34,757 - INFO - Batch num: 80, Task 0 acc: 0.0319, Batch num: 80, Task 1 acc: 57.1476, Batch num: 80, Task 2 acc: 69.4325, Task avg acc:42.2040
+2024-05-27 12:25:35,024 - INFO - Epoch 3
+2024-05-27 12:25:41,102 - INFO - Batch num: 0, Task 0 acc: 1.5545, Batch num: 0, Task 1 acc: 52.4435, Batch num: 0, Task 2 acc: 74.6228, Task avg acc:42.8736
+2024-05-27 12:25:47,675 - INFO - Batch num: 10, Task 0 acc: 0.4943, Batch num: 10, Task 1 acc: 50.6981, Batch num: 10, Task 2 acc: 75.5837, Task avg acc:42.2587
+2024-05-27 12:25:54,684 - INFO - Batch num: 20, Task 0 acc: 1.1400, Batch num: 20, Task 1 acc: 46.7337, Batch num: 20, Task 2 acc: 78.6818, Task avg acc:42.1852
+2024-05-27 12:26:01,146 - INFO - Batch num: 30, Task 0 acc: 0.5740, Batch num: 30, Task 1 acc: 49.7590, Batch num: 30, Task 2 acc: 75.0539, Task avg acc:41.7956
+2024-05-27 12:26:08,641 - INFO - Batch num: 40, Task 0 acc: 0.7015, Batch num: 40, Task 1 acc: 39.1290, Batch num: 40, Task 2 acc: 81.7708, Task avg acc:40.5338
+2024-05-27 12:26:15,058 - INFO - Batch num: 50, Task 0 acc: 0.3508, Batch num: 50, Task 1 acc: 40.6084, Batch num: 50, Task 2 acc: 82.5700, Task avg acc:41.1764
+2024-05-27 12:26:21,476 - INFO - Batch num: 60, Task 0 acc: 0.5740, Batch num: 60, Task 1 acc: 36.0289, Batch num: 60, Task 2 acc: 83.0370, Task avg acc:39.8800
+2024-05-27 12:26:27,898 - INFO - Batch num: 70, Task 0 acc: 0.8530, Batch num: 70, Task 1 acc: 40.1097, Batch num: 70, Task 2 acc: 83.2435, Task avg acc:41.4021
+2024-05-27 12:26:34,343 - INFO - Batch num: 80, Task 0 acc: 0.3428, Batch num: 80, Task 1 acc: 34.5828, Batch num: 80, Task 2 acc: 84.4289, Task avg acc:39.7848
+2024-05-27 12:26:34,617 - INFO - ##########Task 3##########
+2024-05-27 12:26:34,618 - INFO - Epoch 0
+2024-05-27 12:26:42,785 - INFO - Batch num: 0, Task 0 acc: 1.0124, Batch num: 0, Task 1 acc: 29.6044, Batch num: 0, Task 2 acc: 86.8175, Batch num: 0, Task 3 acc: 0.0000, Task avg acc:29.3586
+2024-05-27 12:26:51,675 - INFO - Batch num: 10, Task 0 acc: 0.4464, Batch num: 10, Task 1 acc: 39.6360, Batch num: 10, Task 2 acc: 80.6483, Batch num: 10, Task 3 acc: 0.0000, Task avg acc:30.1827
+2024-05-27 12:27:00,170 - INFO - Batch num: 20, Task 0 acc: 1.4031, Batch num: 20, Task 1 acc: 32.5050, Batch num: 20, Task 2 acc: 84.2044, Batch num: 20, Task 3 acc: 0.0082, Task avg acc:29.5302
+2024-05-27 12:27:08,605 - INFO - Batch num: 30, Task 0 acc: 0.1674, Batch num: 30, Task 1 acc: 45.1047, Batch num: 30, Task 2 acc: 75.7902, Batch num: 30, Task 3 acc: 3.0674, Task avg acc:31.0324
+2024-05-27 12:27:17,116 - INFO - Batch num: 40, Task 0 acc: 0.3348, Batch num: 40, Task 1 acc: 34.9152, Batch num: 40, Task 2 acc: 83.0999, Batch num: 40, Task 3 acc: 12.9194, Task avg acc:32.8173
+2024-05-27 12:27:25,561 - INFO - Batch num: 50, Task 0 acc: 0.5501, Batch num: 50, Task 1 acc: 39.2537, Batch num: 50, Task 2 acc: 76.7062, Batch num: 50, Task 3 acc: 28.2977, Task avg acc:36.2019
+2024-05-27 12:27:34,004 - INFO - Batch num: 60, Task 0 acc: 0.2232, Batch num: 60, Task 1 acc: 36.5193, Batch num: 60, Task 2 acc: 80.4867, Batch num: 60, Task 3 acc: 34.0461, Task avg acc:37.8188
+2024-05-27 12:27:42,696 - INFO - Batch num: 70, Task 0 acc: 0.1834, Batch num: 70, Task 1 acc: 40.3258, Batch num: 70, Task 2 acc: 74.2188, Batch num: 70, Task 3 acc: 47.9605, Task avg acc:40.6721
+2024-05-27 12:27:51,167 - INFO - Batch num: 80, Task 0 acc: 0.2710, Batch num: 80, Task 1 acc: 26.9282, Batch num: 80, Task 2 acc: 80.6214, Batch num: 80, Task 3 acc: 53.7007, Task avg acc:40.3803
+2024-05-27 12:27:59,647 - INFO - Batch num: 90, Task 0 acc: 0.0638, Batch num: 90, Task 1 acc: 33.9511, Batch num: 90, Task 2 acc: 75.0449, Batch num: 90, Task 3 acc: 52.7385, Task avg acc:40.4496
+2024-05-27 12:27:59,827 - INFO - Epoch 1
+2024-05-27 12:28:07,851 - INFO - Batch num: 0, Task 0 acc: 0.5261, Batch num: 0, Task 1 acc: 31.8733, Batch num: 0, Task 2 acc: 75.6735, Batch num: 0, Task 3 acc: 55.0329, Task avg acc:40.7765
+2024-05-27 12:28:16,288 - INFO - Batch num: 10, Task 0 acc: 0.0957, Batch num: 10, Task 1 acc: 35.2726, Batch num: 10, Task 2 acc: 70.8333, Batch num: 10, Task 3 acc: 58.2566, Task avg acc:41.1145
+2024-05-27 12:28:24,756 - INFO - Batch num: 20, Task 0 acc: 0.7015, Batch num: 20, Task 1 acc: 27.8175, Batch num: 20, Task 2 acc: 75.1796, Batch num: 20, Task 3 acc: 70.3454, Task avg acc:43.5110
+2024-05-27 12:28:33,498 - INFO - Batch num: 30, Task 0 acc: 0.2551, Batch num: 30, Task 1 acc: 21.3348, Batch num: 30, Task 2 acc: 75.0090, Batch num: 30, Task 3 acc: 69.6957, Task avg acc:41.5736
+2024-05-27 12:28:41,930 - INFO - Batch num: 40, Task 0 acc: 0.0478, Batch num: 40, Task 1 acc: 28.5655, Batch num: 40, Task 2 acc: 71.1566, Batch num: 40, Task 3 acc: 81.7763, Task avg acc:45.3866
+2024-05-27 12:28:50,416 - INFO - Batch num: 50, Task 0 acc: 0.0877, Batch num: 50, Task 1 acc: 29.4631, Batch num: 50, Task 2 acc: 72.6203, Batch num: 50, Task 3 acc: 80.0905, Task avg acc:45.5654
+2024-05-27 12:28:58,863 - INFO - Batch num: 60, Task 0 acc: 0.1036, Batch num: 60, Task 1 acc: 28.6902, Batch num: 60, Task 2 acc: 72.5036, Batch num: 60, Task 3 acc: 85.0082, Task avg acc:46.5764
+2024-05-27 12:29:07,282 - INFO - Batch num: 70, Task 0 acc: 0.0080, Batch num: 70, Task 1 acc: 26.4461, Batch num: 70, Task 2 acc: 69.9084, Batch num: 70, Task 3 acc: 86.3651, Task avg acc:45.6819
+2024-05-27 12:29:15,790 - INFO - Batch num: 80, Task 0 acc: 0.0080, Batch num: 80, Task 1 acc: 20.6200, Batch num: 80, Task 2 acc: 71.3991, Batch num: 80, Task 3 acc: 89.9013, Task avg acc:45.4821
+2024-05-27 12:29:24,554 - INFO - Batch num: 90, Task 0 acc: 0.0159, Batch num: 90, Task 1 acc: 25.4571, Batch num: 90, Task 2 acc: 67.3940, Batch num: 90, Task 3 acc: 91.5296, Task avg acc:46.0992
+2024-05-27 12:29:24,742 - INFO - Epoch 2
+2024-05-27 12:29:32,801 - INFO - Batch num: 0, Task 0 acc: 0.0558, Batch num: 0, Task 1 acc: 20.4538, Batch num: 0, Task 2 acc: 69.8276, Batch num: 0, Task 3 acc: 92.5082, Task avg acc:45.7114
+2024-05-27 12:29:41,219 - INFO - Batch num: 10, Task 0 acc: 0.0159, Batch num: 10, Task 1 acc: 25.2244, Batch num: 10, Task 2 acc: 67.0797, Batch num: 10, Task 3 acc: 92.8454, Task avg acc:46.2914
+2024-05-27 12:29:49,684 - INFO - Batch num: 20, Task 0 acc: 0.0957, Batch num: 20, Task 1 acc: 13.6303, Batch num: 20, Task 2 acc: 73.7787, Batch num: 20, Task 3 acc: 94.7122, Task avg acc:45.5542
+2024-05-27 12:29:58,194 - INFO - Batch num: 30, Task 0 acc: 0.3986, Batch num: 30, Task 1 acc: 19.2653, Batch num: 30, Task 2 acc: 70.4741, Batch num: 30, Task 3 acc: 93.9803, Task avg acc:46.0296
+2024-05-27 12:30:06,612 - INFO - Batch num: 40, Task 0 acc: 0.2471, Batch num: 40, Task 1 acc: 19.7889, Batch num: 40, Task 2 acc: 70.9950, Batch num: 40, Task 3 acc: 95.1151, Task avg acc:46.5365
+2024-05-27 12:30:15,411 - INFO - Batch num: 50, Task 0 acc: 0.4145, Batch num: 50, Task 1 acc: 18.1433, Batch num: 50, Task 2 acc: 71.1297, Batch num: 50, Task 3 acc: 95.4605, Task avg acc:46.2870
+2024-05-27 12:30:23,905 - INFO - Batch num: 60, Task 0 acc: 0.0239, Batch num: 60, Task 1 acc: 26.8368, Batch num: 60, Task 2 acc: 60.8746, Batch num: 60, Task 3 acc: 96.7352, Task avg acc:46.1176
+2024-05-27 12:30:32,426 - INFO - Batch num: 70, Task 0 acc: 0.1594, Batch num: 70, Task 1 acc: 23.1799, Batch num: 70, Task 2 acc: 63.8649, Batch num: 70, Task 3 acc: 95.7319, Task avg acc:45.7340
+2024-05-27 12:30:40,868 - INFO - Batch num: 80, Task 0 acc: 0.0877, Batch num: 80, Task 1 acc: 23.2630, Batch num: 80, Task 2 acc: 61.3685, Batch num: 80, Task 3 acc: 97.5822, Task avg acc:45.5754
+2024-05-27 12:30:49,359 - INFO - Batch num: 90, Task 0 acc: 0.5501, Batch num: 90, Task 1 acc: 27.2523, Batch num: 90, Task 2 acc: 58.5040, Batch num: 90, Task 3 acc: 97.0724, Task avg acc:45.8447
+2024-05-27 12:30:49,538 - INFO - Epoch 3
+2024-05-27 12:30:57,603 - INFO - Batch num: 0, Task 0 acc: 0.2790, Batch num: 0, Task 1 acc: 19.4149, Batch num: 0, Task 2 acc: 58.9889, Batch num: 0, Task 3 acc: 97.2615, Task avg acc:43.9861
+2024-05-27 12:31:06,396 - INFO - Batch num: 10, Task 0 acc: 0.1913, Batch num: 10, Task 1 acc: 21.4927, Batch num: 10, Task 2 acc: 55.3969, Batch num: 10, Task 3 acc: 98.2155, Task avg acc:43.8241
+2024-05-27 12:31:15,021 - INFO - Batch num: 20, Task 0 acc: 0.6298, Batch num: 20, Task 1 acc: 22.8391, Batch num: 20, Task 2 acc: 52.1282, Batch num: 20, Task 3 acc: 98.0016, Task avg acc:43.3997
+2024-05-27 12:31:23,509 - INFO - Batch num: 30, Task 0 acc: 0.0159, Batch num: 30, Task 1 acc: 27.5598, Batch num: 30, Task 2 acc: 36.7816, Batch num: 30, Task 3 acc: 98.1908, Task avg acc:40.6370
+2024-05-27 12:31:31,961 - INFO - Batch num: 40, Task 0 acc: 0.0239, Batch num: 40, Task 1 acc: 18.2098, Batch num: 40, Task 2 acc: 42.5916, Batch num: 40, Task 3 acc: 98.6678, Task avg acc:39.8733
+2024-05-27 12:31:40,434 - INFO - Batch num: 50, Task 0 acc: 0.0000, Batch num: 50, Task 1 acc: 28.0834, Batch num: 50, Task 2 acc: 30.1634, Batch num: 50, Task 3 acc: 97.8043, Task avg acc:39.0128
+2024-05-27 12:31:48,877 - INFO - Batch num: 60, Task 0 acc: 0.0000, Batch num: 60, Task 1 acc: 13.9960, Batch num: 60, Task 2 acc: 38.4339, Batch num: 60, Task 3 acc: 98.9309, Task avg acc:37.8402
+2024-05-27 12:31:57,720 - INFO - Batch num: 70, Task 0 acc: 0.0000, Batch num: 70, Task 1 acc: 21.8916, Batch num: 70, Task 2 acc: 33.6835, Batch num: 70, Task 3 acc: 98.9062, Task avg acc:38.6204
+2024-05-27 12:32:06,228 - INFO - Batch num: 80, Task 0 acc: 0.0000, Batch num: 80, Task 1 acc: 18.6586, Batch num: 80, Task 2 acc: 28.6369, Batch num: 80, Task 3 acc: 98.7829, Task avg acc:36.5196
+2024-05-27 12:32:14,664 - INFO - Batch num: 90, Task 0 acc: 0.0000, Batch num: 90, Task 1 acc: 19.6476, Batch num: 90, Task 2 acc: 34.3930, Batch num: 90, Task 3 acc: 98.7582, Task avg acc:38.1997
+2024-05-27 12:32:14,849 - INFO - ##########Task 4##########
+2024-05-27 12:32:14,849 - INFO - Epoch 0
+2024-05-27 12:32:24,919 - INFO - Batch num: 0, Task 0 acc: 0.0159, Batch num: 0, Task 1 acc: 20.5701, Batch num: 0, Task 2 acc: 41.8732, Batch num: 0, Task 3 acc: 98.7253, Batch num: 0, Task 4 acc: 0.0000, Task avg acc:32.2369
+2024-05-27 12:32:35,324 - INFO - Batch num: 10, Task 0 acc: 0.0000, Batch num: 10, Task 1 acc: 18.6087, Batch num: 10, Task 2 acc: 32.1929, Batch num: 10, Task 3 acc: 98.8158, Batch num: 10, Task 4 acc: 0.0000, Task avg acc:29.9235
+2024-05-27 12:32:45,962 - INFO - Batch num: 20, Task 0 acc: 0.0000, Batch num: 20, Task 1 acc: 13.9545, Batch num: 20, Task 2 acc: 37.4012, Batch num: 20, Task 3 acc: 98.9062, Batch num: 20, Task 4 acc: 0.0255, Task avg acc:30.0575
+2024-05-27 12:32:56,456 - INFO - Batch num: 30, Task 0 acc: 0.0000, Batch num: 30, Task 1 acc: 12.1343, Batch num: 30, Task 2 acc: 20.8782, Batch num: 30, Task 3 acc: 98.9227, Batch num: 30, Task 4 acc: 0.6454, Task avg acc:26.5161
+2024-05-27 12:33:06,891 - INFO - Batch num: 40, Task 0 acc: 0.0000, Batch num: 40, Task 1 acc: 9.9402, Batch num: 40, Task 2 acc: 27.6042, Batch num: 40, Task 3 acc: 98.8734, Batch num: 40, Task 4 acc: 8.1182, Task avg acc:28.9072
+2024-05-27 12:33:17,341 - INFO - Batch num: 50, Task 0 acc: 0.0000, Batch num: 50, Task 1 acc: 10.1895, Batch num: 50, Task 2 acc: 16.4062, Batch num: 50, Task 3 acc: 98.8569, Batch num: 50, Task 4 acc: 13.3407, Task avg acc:27.7587
+2024-05-27 12:33:27,945 - INFO - Batch num: 60, Task 0 acc: 0.0000, Batch num: 60, Task 1 acc: 6.1420, Batch num: 60, Task 2 acc: 19.5043, Batch num: 60, Task 3 acc: 98.2730, Batch num: 60, Task 4 acc: 25.8747, Task avg acc:29.9588
+2024-05-27 12:33:38,816 - INFO - Batch num: 70, Task 0 acc: 0.0000, Batch num: 70, Task 1 acc: 6.4162, Batch num: 70, Task 2 acc: 14.4846, Batch num: 70, Task 3 acc: 98.3964, Batch num: 70, Task 4 acc: 31.5302, Task avg acc:30.1655
+2024-05-27 12:33:49,249 - INFO - Batch num: 80, Task 0 acc: 0.0000, Batch num: 80, Task 1 acc: 1.4794, Batch num: 80, Task 2 acc: 13.4698, Batch num: 80, Task 3 acc: 98.7171, Batch num: 80, Task 4 acc: 39.1559, Task avg acc:30.5644
+2024-05-27 12:33:59,699 - INFO - Batch num: 90, Task 0 acc: 0.0000, Batch num: 90, Task 1 acc: 2.9006, Batch num: 90, Task 2 acc: 13.4429, Batch num: 90, Task 3 acc: 97.7303, Batch num: 90, Task 4 acc: 43.8349, Task avg acc:31.5817
+2024-05-27 12:33:59,744 - INFO - Epoch 1
+2024-05-27 12:34:09,810 - INFO - Batch num: 0, Task 0 acc: 0.0000, Batch num: 0, Task 1 acc: 3.0751, Batch num: 0, Task 2 acc: 13.5596, Batch num: 0, Task 3 acc: 97.3684, Batch num: 0, Task 4 acc: 46.4589, Task avg acc:32.0924
+2024-05-27 12:34:20,266 - INFO - Batch num: 10, Task 0 acc: 0.0000, Batch num: 10, Task 1 acc: 1.6622, Batch num: 10, Task 2 acc: 12.4910, Batch num: 10, Task 3 acc: 95.8141, Batch num: 10, Task 4 acc: 52.0805, Task avg acc:32.4096
+2024-05-27 12:34:31,178 - INFO - Batch num: 20, Task 0 acc: 0.0000, Batch num: 20, Task 1 acc: 1.5293, Batch num: 20, Task 2 acc: 9.4828, Batch num: 20, Task 3 acc: 94.6793, Batch num: 20, Task 4 acc: 52.2928, Task avg acc:31.5968
+2024-05-27 12:34:41,602 - INFO - Batch num: 30, Task 0 acc: 0.0000, Batch num: 30, Task 1 acc: 0.8727, Batch num: 30, Task 2 acc: 8.8182, Batch num: 30, Task 3 acc: 93.9638, Batch num: 30, Task 4 acc: 58.2201, Task avg acc:32.3750
+2024-05-27 12:34:51,985 - INFO - Batch num: 40, Task 0 acc: 0.0000, Batch num: 40, Task 1 acc: 1.7038, Batch num: 40, Task 2 acc: 4.9030, Batch num: 40, Task 3 acc: 89.7615, Batch num: 40, Task 4 acc: 65.8713, Task avg acc:32.4479
+2024-05-27 12:35:02,481 - INFO - Batch num: 50, Task 0 acc: 0.0000, Batch num: 50, Task 1 acc: 0.9973, Batch num: 50, Task 2 acc: 4.0499, Batch num: 50, Task 3 acc: 89.3750, Batch num: 50, Task 4 acc: 63.2048, Task avg acc:31.5254
+2024-05-27 12:35:12,909 - INFO - Batch num: 60, Task 0 acc: 0.0000, Batch num: 60, Task 1 acc: 1.0805, Batch num: 60, Task 2 acc: 2.0833, Batch num: 60, Task 3 acc: 84.6957, Batch num: 60, Task 4 acc: 68.1301, Task avg acc:31.1979
+2024-05-27 12:35:23,712 - INFO - Batch num: 70, Task 0 acc: 0.0000, Batch num: 70, Task 1 acc: 0.1828, Batch num: 70, Task 2 acc: 5.0287, Batch num: 70, Task 3 acc: 82.1875, Batch num: 70, Task 4 acc: 71.1532, Task avg acc:31.7105
+2024-05-27 12:35:34,168 - INFO - Batch num: 80, Task 0 acc: 0.0000, Batch num: 80, Task 1 acc: 0.6732, Batch num: 80, Task 2 acc: 2.9005, Batch num: 80, Task 3 acc: 68.8734, Batch num: 80, Task 4 acc: 80.4518, Task avg acc:30.5798
+2024-05-27 12:35:44,591 - INFO - Batch num: 90, Task 0 acc: 0.0000, Batch num: 90, Task 1 acc: 0.7064, Batch num: 90, Task 2 acc: 2.6491, Batch num: 90, Task 3 acc: 64.9507, Batch num: 90, Task 4 acc: 77.7344, Task avg acc:29.2081
+2024-05-27 12:35:44,637 - INFO - Epoch 2
+2024-05-27 12:35:54,742 - INFO - Batch num: 0, Task 0 acc: 0.0000, Batch num: 0, Task 1 acc: 0.3158, Batch num: 0, Task 2 acc: 4.4001, Batch num: 0, Task 3 acc: 62.2204, Batch num: 0, Task 4 acc: 79.8658, Task avg acc:29.3604
+2024-05-27 12:36:05,193 - INFO - Batch num: 10, Task 0 acc: 0.0000, Batch num: 10, Task 1 acc: 0.8477, Batch num: 10, Task 2 acc: 2.9993, Batch num: 10, Task 3 acc: 61.6859, Batch num: 10, Task 4 acc: 76.8003, Task avg acc:28.4666
+2024-05-27 12:36:15,992 - INFO - Batch num: 20, Task 0 acc: 0.0000, Batch num: 20, Task 1 acc: 0.3823, Batch num: 20, Task 2 acc: 2.2540, Batch num: 20, Task 3 acc: 65.1151, Batch num: 20, Task 4 acc: 82.2520, Task avg acc:30.0007
+2024-05-27 12:36:26,428 - INFO - Batch num: 30, Task 0 acc: 0.0000, Batch num: 30, Task 1 acc: 0.6815, Batch num: 30, Task 2 acc: 2.9903, Batch num: 30, Task 3 acc: 51.8174, Batch num: 30, Task 4 acc: 83.6192, Task avg acc:27.8217
+2024-05-27 12:36:36,855 - INFO - Batch num: 40, Task 0 acc: 0.0000, Batch num: 40, Task 1 acc: 0.8477, Batch num: 40, Task 2 acc: 2.3797, Batch num: 40, Task 3 acc: 51.7681, Batch num: 40, Task 4 acc: 86.8207, Task avg acc:28.3632
+2024-05-27 12:36:47,284 - INFO - Batch num: 50, Task 0 acc: 0.0000, Batch num: 50, Task 1 acc: 0.1912, Batch num: 50, Task 2 acc: 1.2392, Batch num: 50, Task 3 acc: 50.0905, Batch num: 50, Task 4 acc: 86.8291, Task avg acc:27.6700
+2024-05-27 12:36:57,803 - INFO - Batch num: 60, Task 0 acc: 0.0000, Batch num: 60, Task 1 acc: 0.4737, Batch num: 60, Task 2 acc: 3.8165, Batch num: 60, Task 3 acc: 42.3438, Batch num: 60, Task 4 acc: 85.4620, Task avg acc:26.4192
+2024-05-27 12:37:08,795 - INFO - Batch num: 70, Task 0 acc: 0.0000, Batch num: 70, Task 1 acc: 0.2078, Batch num: 70, Task 2 acc: 3.1250, Batch num: 70, Task 3 acc: 40.6579, Batch num: 70, Task 4 acc: 86.6848, Task avg acc:26.1351
+2024-05-27 12:37:19,390 - INFO - Batch num: 80, Task 0 acc: 0.0000, Batch num: 80, Task 1 acc: 0.1745, Batch num: 80, Task 2 acc: 2.2809, Batch num: 80, Task 3 acc: 40.1645, Batch num: 80, Task 4 acc: 86.5659, Task avg acc:25.8372
+2024-05-27 12:37:29,794 - INFO - Batch num: 90, Task 0 acc: 0.0000, Batch num: 90, Task 1 acc: 0.0332, Batch num: 90, Task 2 acc: 2.6401, Batch num: 90, Task 3 acc: 40.9539, Batch num: 90, Task 4 acc: 86.0819, Task avg acc:25.9418
+2024-05-27 12:37:29,839 - INFO - Epoch 3
+2024-05-27 12:37:39,884 - INFO - Batch num: 0, Task 0 acc: 0.0000, Batch num: 0, Task 1 acc: 0.0249, Batch num: 0, Task 2 acc: 1.9846, Batch num: 0, Task 3 acc: 39.8931, Batch num: 0, Task 4 acc: 86.6338, Task avg acc:25.7073
+2024-05-27 12:37:50,294 - INFO - Batch num: 10, Task 0 acc: 0.0000, Batch num: 10, Task 1 acc: 0.0582, Batch num: 10, Task 2 acc: 2.2989, Batch num: 10, Task 3 acc: 38.5033, Batch num: 10, Task 4 acc: 90.4297, Task avg acc:26.2580
+2024-05-27 12:38:01,248 - INFO - Batch num: 20, Task 0 acc: 0.0000, Batch num: 20, Task 1 acc: 0.0332, Batch num: 20, Task 2 acc: 0.4670, Batch num: 20, Task 3 acc: 41.4720, Batch num: 20, Task 4 acc: 88.2388, Task avg acc:26.0422
+2024-05-27 12:38:11,669 - INFO - Batch num: 30, Task 0 acc: 0.0000, Batch num: 30, Task 1 acc: 0.0083, Batch num: 30, Task 2 acc: 1.8768, Batch num: 30, Task 3 acc: 35.3783, Batch num: 30, Task 4 acc: 88.6039, Task avg acc:25.1735
+2024-05-27 12:38:22,063 - INFO - Batch num: 40, Task 0 acc: 0.0000, Batch num: 40, Task 1 acc: 0.0416, Batch num: 40, Task 2 acc: 0.4670, Batch num: 40, Task 3 acc: 32.0559, Batch num: 40, Task 4 acc: 89.5465, Task avg acc:24.4222
+2024-05-27 12:38:32,498 - INFO - Batch num: 50, Task 0 acc: 0.0000, Batch num: 50, Task 1 acc: 0.0083, Batch num: 50, Task 2 acc: 0.9339, Batch num: 50, Task 3 acc: 30.9704, Batch num: 50, Task 4 acc: 88.6464, Task avg acc:24.1118
+2024-05-27 12:38:42,947 - INFO - Batch num: 60, Task 0 acc: 0.0000, Batch num: 60, Task 1 acc: 0.0332, Batch num: 60, Task 2 acc: 2.0474, Batch num: 60, Task 3 acc: 28.6678, Batch num: 60, Task 4 acc: 89.6824, Task avg acc:24.0862
+2024-05-27 12:38:53,808 - INFO - Batch num: 70, Task 0 acc: 0.0000, Batch num: 70, Task 1 acc: 0.0332, Batch num: 70, Task 2 acc: 0.6017, Batch num: 70, Task 3 acc: 33.4786, Batch num: 70, Task 4 acc: 89.8607, Task avg acc:24.7948
+2024-05-27 12:39:04,237 - INFO - Batch num: 80, Task 0 acc: 0.0000, Batch num: 80, Task 1 acc: 0.0831, Batch num: 80, Task 2 acc: 1.9486, Batch num: 80, Task 3 acc: 24.5395, Batch num: 80, Task 4 acc: 91.7374, Task avg acc:23.6617
+2024-05-27 12:39:14,667 - INFO - Batch num: 90, Task 0 acc: 0.0000, Batch num: 90, Task 1 acc: 0.0665, Batch num: 90, Task 2 acc: 0.1706, Batch num: 90, Task 3 acc: 31.6118, Batch num: 90, Task 4 acc: 89.8438, Task avg acc:24.3385

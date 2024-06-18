@@ -29,3 +29,6 @@ Temporary Items
 *.pth
 
 *-ubyte
+
+*.h5
+*.pth

@@ -31,4 +31,7 @@ Temporary Items
 *-ubyte
 
 *.h5
-*.pth
+*.png
+*.jpg
+*.csv
+*.txt

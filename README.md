@@ -1,5 +1,5 @@
 # ML-Method
-GAN, Attention, Diffussion, Bert ... from scratch
+Attention, Diffusion, Bert, RL, Clip ... from scratch
 
 - [Image Classification](./Image%20Classification/)
 - [GAN](./GAN/)
@@ -14,4 +14,9 @@ GAN, Attention, Diffussion, Bert ... from scratch
 - [Diffusion Model](./Diffusion/)
 - [Language Model](./LLM/)
   - [Bert](./LLM/Bert/)
+- [Multimodality](./#)
+  - [Clip](./#)
+- [Transfer Learning](./#)
+  - [DANN](./#)
+  - [DSN](./#)
 

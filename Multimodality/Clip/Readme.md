@@ -140,6 +140,11 @@ def calLoss(logits, targets)
     return loss.mean()
 ```
 
+## Train model
+
+```
+python3 Main.py
+```
 
 
 

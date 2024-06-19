@@ -1,4 +1,4 @@
-# Fantistic ML-Method
+# Fantastic ML-Method
 Attention, Diffusion, Bert, RL, Clip ... from scratch
 
 - [Image Classification](./Image%20Classification/)
@@ -11,20 +11,22 @@ Attention, Diffusion, Bert, RL, Clip ... from scratch
   - [CGAN](./GAN/CGAN/)
   - [DCGAN](./GAN/DCGAN/)
   - [WGAN](./GAN/WGAN/)
+- [Language Model](./LLM/)
+  - [Seq to Seq]()
+  - [Bert](./LLM/Bert/)
+- [Diffusion Model](./Diffusion/)
+  - [DDPM](./#)
+- [Multimodality](./Multimodality/)
+  - [Clip](./Multimodality/Clip/)
 - [Reinforcement Learning](./Reinforcement%20Learning/)
   - [Sarsa](./Reinforcement%20Learning/Sarsa/)
   - [Q-Learning](./Reinforcement%20Learning/Q-learning/)
   - [DQN](./Reinforcement%20Learning/DQN/)
   - [PPO](./#)
-- [Diffusion Model](./Diffusion/)
-  - [DDPM](./#)
-- [Language Model](./LLM/)
-  - [Seq to Seq]()
-  - [Bert](./LLM/Bert/)
-- [Multimodality](./Multimodality/)
-  - [Clip](./Multimodality/Clip/)
 - [Transfer Learning](./#)
   - [DANN](./#)
   - [DSN](./#)
   - [Style Transfer](./#)
+- [Segmentation](./#)
+  - [Unet](./#)
 

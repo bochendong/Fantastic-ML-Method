@@ -71,7 +71,7 @@ The following will bring the 2048 and 768 dimensional vectors into a 256 (`proje
 `embedding_dim` is the size of the input vector (2048 for images and 768 for texts) and `projection_dim` is the the size of the output vector which will be 256 for our case. 
 
 <p align="center">
-    <img src = './img/02.png'>
+    <img src = './img/02.png' width = 800px>
 </p>
 
 ## Loss Function
@@ -113,7 +113,7 @@ As the loss function's job is to make model's predictions similar to targets (at
 (`temperature` is equal to `1.0` in our case, so, it does not make a difference.)
 
 <p align="center">
-    <img src = './img/04.png'>
+    <img src = './img/04.png' width = 800px>
 </p>
 
 ```python

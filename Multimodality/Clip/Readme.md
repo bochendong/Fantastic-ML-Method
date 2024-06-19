@@ -129,7 +129,7 @@ def get_target(image_embeddings, text_embeddings):
 ### Loss
 
 <p align="center">
-    <img src = './img/05.png' width = 500px>
+    <img src = './img/05.png' width = 800px>
 </p>
 
 ```python

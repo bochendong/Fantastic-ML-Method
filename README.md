@@ -2,6 +2,10 @@
 Attention, Diffusion, Bert, RL, Clip ... from scratch
 
 - [Image Classification](./Image%20Classification/)
+  - [Alex Net](./#)
+  - [VGG](./#)
+  - [ResNet](./#)
+  - [VIT](./#)
 - [GAN](./GAN/)
   - [CGAN](./GAN/CGAN/)
   - [DCGAN](./GAN/DCGAN/)
@@ -12,6 +16,7 @@ Attention, Diffusion, Bert, RL, Clip ... from scratch
   - [DQN](./Reinforcement%20Learning/DQN/)
   - [PPO](./#)
 - [Diffusion Model](./Diffusion/)
+  - [DDPM](./#)
 - [Language Model](./LLM/)
   - [Bert](./LLM/Bert/)
 - [Multimodality](./Multimodality/)

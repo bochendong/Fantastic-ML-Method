@@ -1,4 +1,4 @@
-# ML-Method
+# Fantistic ML-Method
 Attention, Diffusion, Bert, RL, Clip ... from scratch
 
 - [Image Classification](./Image%20Classification/)
@@ -6,6 +6,7 @@ Attention, Diffusion, Bert, RL, Clip ... from scratch
   - [VGG](./#)
   - [ResNet](./#)
   - [VIT](./#)
+- [Attention](./#)
 - [GAN](./GAN/)
   - [CGAN](./GAN/CGAN/)
   - [DCGAN](./GAN/DCGAN/)
@@ -18,10 +19,12 @@ Attention, Diffusion, Bert, RL, Clip ... from scratch
 - [Diffusion Model](./Diffusion/)
   - [DDPM](./#)
 - [Language Model](./LLM/)
+  - [Seq to Seq]()
   - [Bert](./LLM/Bert/)
 - [Multimodality](./Multimodality/)
   - [Clip](./Multimodality/Clip/)
 - [Transfer Learning](./#)
   - [DANN](./#)
   - [DSN](./#)
+  - [Style Transfer](./#)
 

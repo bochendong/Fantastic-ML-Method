@@ -5,10 +5,8 @@ config = read_settings()
 
 class ProjectionHead(nn.Module):
     def __init__(
-        self,
-        embedding_dim,
-        projection_dim=config["projection_dim"],
-        dropout=config["dropout"]
+        self, embedding_dim,
+        projection_dim=config["projection_dim"], dropout=config["dropout"]
     ):
         super().__init__()
         self.projection = nn.Linear(embedding_dim, projection_dim)

@@ -17,7 +17,6 @@ def main():
     train_loader = build_loaders(train_df, tokenizer, mode="train")
     valid_loader = build_loaders(valid_df, tokenizer, mode="valid")
 
-
     model = CLIPModel().to(device)
     params = [
             {"params": model.image_encoder.parameters(), "lr": config["image_encoder_lr"]},
@@ -30,6 +29,7 @@ def main():
     lr_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
             optimizer, mode="min", patience=config["patience"], factor=config["factor"]
         )
+    
     step = "epoch"
 
     best_loss = float('inf')

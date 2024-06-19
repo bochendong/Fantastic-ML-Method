@@ -9,7 +9,6 @@ from Utils import read_settings
 
 config = read_settings()
 
-
 class CLIPDataset(torch.utils.data.Dataset):
     def __init__(self, image_filenames, captions, tokenizer, transforms):
         self.image_filenames = image_filenames
@@ -66,7 +65,6 @@ def make_train_valid_dfs():
     train_dataframe = dataframe[dataframe["id"].isin(train_ids)].reset_index(drop=True)
     valid_dataframe = dataframe[dataframe["id"].isin(valid_ids)].reset_index(drop=True)
     return train_dataframe, valid_dataframe
-
 
 def build_loaders(dataframe, tokenizer, mode):
     transforms = get_transforms(mode=mode)

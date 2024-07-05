@@ -82,7 +82,6 @@ betas = (0.9, 0.999)
 weight_decay = 0.01
 
 
-
 bert = BERT(len(vocab))
 model = BERTLM(bert, len(vocab))
 

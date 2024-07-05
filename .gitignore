@@ -34,3 +34,5 @@ Temporary Items
 *.jpg
 *.csv
 *.txt
+
+*.json

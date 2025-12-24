@@ -37,3 +37,8 @@ Temporary Items
 *.txt
 
 *.json
+
+# GAN images
+GAN/img/
+GAN/*/Data/
+GAN/PokemonGAN/archive/

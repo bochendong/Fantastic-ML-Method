@@ -168,6 +168,7 @@ class CliffWalkingWapper(gym.Wrapper):
         self.move_player(x_pos, y_pos)
 
 
+
 if __name__ == '__main__':
     # 环境1：FrozenLake, 可以配置冰面是否是滑的
     # 0 left, 1 down, 2 right, 3 up

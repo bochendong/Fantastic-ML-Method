@@ -1,5 +1,19 @@
-# GYM project
+# Reinforcement Learning
 
-* [Sarsa](https://github.com/bochendong/GYM-project/tree/master/Sarsa)
-* [Q-learning](https://github.com/bochendong/GYM-project/tree/master/Q-learning)
-* [DQN](https://github.com/bochendong/GYM-project/tree/master/DQN)
+本目录包含从简单到难的强化学习算法实现，按学习难度排序：
+
+## 算法列表（从简单到难）
+
+1. **[01_Lecture - 基础教程](./01_Lecture/)** - 强化学习基础概念和教学材料
+
+2. **[02_Q-learning - Q学习算法](./02_Q-learning/)** - 最简单的表格方法（off-policy），使用Q表存储状态-动作价值
+
+3. **[03_Sarsa - Sarsa算法](./03_Sarsa/)** - 表格方法（on-policy），与Q-learning类似但使用实际采取的动作更新
+
+4. **[04_DQN - 深度Q网络](./04_DQN/)** - 使用深度神经网络替代Q表，可以处理连续状态空间
+
+5. **[05_PPO - 近端策略优化](./05_PPO/)** - 策略梯度方法，使用裁剪机制限制策略更新，实现简单且高效
+
+6. **[06_TRPO - 信任域策略优化](./06_TRPO/)** - 更复杂的策略梯度方法，使用KL散度约束保证单调改进
+
+7. **[07_GRPO - 组相对策略优化](./07_GRPO/)** - 高级策略优化算法

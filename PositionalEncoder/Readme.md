@@ -173,9 +173,7 @@ $$
 最终得到：
 
 $$
-q_m \cdot k_n
-=
-q^T
+q_m \cdot k_n = q^T
 \begin{pmatrix}
 \cos((n - m)\theta) & -\sin((n - m)\theta) \\
 \sin((n - m)\theta) & \cos((n - m)\theta)
